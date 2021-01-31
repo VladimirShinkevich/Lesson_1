@@ -1,5 +1,5 @@
 print "Enter your name: "
-name = gets.chomp.capitalize!
+name = gets.to_f.capitalize!
 print "Enter your height: "
 height = gets.to_f
 ideal_weight = (height - 110) * 1.15
